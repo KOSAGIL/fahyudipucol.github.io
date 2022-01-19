@@ -1,0 +1,353 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: Courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+    font-size: smaller;
+}
+
+.menu a:hover {
+    background-color: blue;
+    width: 20px;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: teal;
+    z-index: 1;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .dekripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: black;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: red;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-family: "comic sans ms";
+}
+
+a.tbl-pink:hover {
+    background: red;
+    text-decoration: none;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.admin-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nomor-admin {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.nomor-admin img {
+    width: 65%;
+}
+
+.nomor-admin p {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 150px    ;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#CONTACT {
+    background: gray;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.h3 {
+    font-family: cursive;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: gold;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color: gray;
+    margin-top: 50px;
+    float: left;
+}
+
+@media screen and (max-widht: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+    }
+}
+
+#CONTACT img {
+    width: 8%;
+    border-radius: 50%;
+}
+
+.logo img {
+    width: 45PX;
+}
+
+.foto img {
+    width: 10%;
+    margin: 45px;
+    padding: 45px;
+    float: right;
+    border-radius: 50%;
+}
+
+.anu img {
+    width: 35%;
+    float: right;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.LULO {
+    margin: 40px;
+}
+
+.BEBE {
+    margin-top: -20px;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+.asu img {
+    width: 300px;
+    height: 200px;
+    border: 4px solid black;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#STORY {
+    text-align: center;
+}
+.admin-list img {
+    width: 95%;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.partner p {
+    line-height: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.sosmed img {
+    width: 25px;
+    border-radius: 50%;
+    float: right inline-start;
+    position: relative;
+}
+
+#copyright img {
+    border-radius: 50%;
+    float: right;
+    width: 20px;
+    margin: 5px;
+}
+
+.ahh img {
+    border: solid black;
+    width: 20%;
+    float: left;
+}
+#PARTNER {
+    line-height: 5px;
+    text-transform: capitalize;
+    background-color: azure
+}
+
+.STORY {
+    position: fixed;
+    margin-top: -50px;
+}
